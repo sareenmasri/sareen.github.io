@@ -1,0 +1,102 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    perspective:2000px;
+}
+.parent{
+    width: 100%;
+    height: 805px;
+    background-color: skyblue;
+    position: relative;
+    z-index: -2;
+}
+.first .one{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+    left: 500px;
+    transform: skewx(30deg);
+    z-index: -1;
+    box-shadow: 0px 0px 30px  black;
+}
+.first .two{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    transform: skewX(-30deg);
+    background-color: gray;
+    left: 560px;
+    z-index: 1;
+    box-shadow: 0px 0px 30px black;
+}
+.first .three{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: skyblue;
+    left: 760px;
+    transform: skewx(30deg);
+    z-index: 2;
+    box-shadow: 0px 0px 30px black;
+}
+.first .four{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    transform: skewX(-30deg);
+    background-color: skyblue;
+    left: 870px;
+    z-index: 3;
+    box-shadow: 0px 0px 30px black;
+}
+
+/***************second************/
+
+
+.second .one{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+    top:400px;
+    left: 500px;
+    transform: skewx(30deg);
+    z-index: 4;
+    box-shadow: 0px 0px 30px  black;
+}
+.second .two{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    transform: skewX(-30deg);
+    background-color: gray;
+    top:400px;
+    left: 560px;
+    z-index: 5;
+    box-shadow: 0px 0px 30px black;
+}
+.second .three{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: gray;
+    top:400px;
+    left: 760px;
+    transform: skewx(30deg);
+    z-index: 6;
+    box-shadow: 0px 0px 30px black;
+}
+.second .four{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    transform: skewX(-30deg);
+    background-color: skyblue;
+    left: 870px;
+    top:400px;
+    z-index: 7;
+    box-shadow: 0px 0px black;
+}
